@@ -10,13 +10,18 @@ Here we used the wrong fingerprint :
 
 ![image](https://user-images.githubusercontent.com/62998958/109495518-ad386b80-7a8f-11eb-947c-3c1338890367.png)
 
+
 And when trying to bypass authentication:
 
+
 ![image](https://user-images.githubusercontent.com/62998958/109495567-c04b3b80-7a8f-11eb-810b-5a4c9a7494e7.png)
+
 
 (the app closes).
 
 Data Saving:
 The personnal data is stored locally using a SQLite3 database. The database is refreshed everytime the user clicks on the "Refresh accounts" button.
 Thus the accounts are available offline if they've been refreshed at least once, here is an example: 
+
+
 ![image](https://user-images.githubusercontent.com/62998958/109496205-a2320b00-7a90-11eb-95c5-e9ec882fdc38.png)
