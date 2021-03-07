@@ -36,6 +36,8 @@ I tried to implement SQLCipher to encrypt the database and further secure the da
 ### API Key:
 The API key is hidden using C code in src/main/jni/keys.c, thanks to NDK. Using C means it can't be decompiled, but it could be accessed using a hexadecimal editor, but in order to further secure the APIKey, i encrypted it in base64, and entered a second "Fake" APIKey called "RealApiKey". 
 
+### API connection:
+We access the api using volley, as the address is https, the connection is secure.
 
 ### Permissions: 
 The app only requests Internet and biometric permission, Internet in order to access the API and accounts, and Biometric in order to secure the access to the app.
