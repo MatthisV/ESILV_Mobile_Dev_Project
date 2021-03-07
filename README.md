@@ -25,7 +25,7 @@ And when trying to bypass authentication:
 
 ### Data Saving:
 The personnal data is stored locally using a SQLite3 database. The database is refreshed everytime the user clicks on the "Refresh accounts" button.
-Thus the accounts are available offline if they've been refreshed at least once, here is an example: 
+Thus the accounts are available offline if they've been refreshed at least once, here is an example (notice airplane mode): 
 
 
 ![image](https://user-images.githubusercontent.com/62998958/109496205-a2320b00-7a90-11eb-95c5-e9ec882fdc38.png)
